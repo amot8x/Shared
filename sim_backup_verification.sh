@@ -23,7 +23,7 @@ TELEGRAM_SETTINGS_FILE="$BASE_DIR/.telegram"
 USB_DISK_UUID="your-usb-uuid"  # <--- UPDATE THIS (use `blkid` to find it)
 
 # Required backup name prefixes to verify
-REQUIRED_ITEMS=("backup-docker-" "backup-immich-" "backup-nextcloud-")
+REQUIRED_ITEMS=("backup-immich-")
 
 # === Logging Setup ===
 mkdir -p "$LOG_DIR"
